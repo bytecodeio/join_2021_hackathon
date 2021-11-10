@@ -2,8 +2,8 @@
 
 application: sheetrunner {
   label: "SheetRunner"
-  # url: "https://localhost:8080/bundle.js"
-  file: "bundle.js"
+  url: "https://localhost:8080/bundle.js"
+  # file: "bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
