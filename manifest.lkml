@@ -9,7 +9,7 @@ application: sheetrunner {
     navigation: yes
     new_window: yes
     new_window_external_urls: []
-    core_api_methods: ["all_folders", "all_dashboards", "create_dashboard", "create_sql_query","run_sql_query"]
+    core_api_methods: ["all_folders", "all_dashboards", "create_dashboard", "create_sql_query","run_sql_query",  "all_connections", "connection"]
     external_api_urls: ["https://lambda_uri"]
     scoped_user_attributes: ["user_value"]
     global_user_attributes: ["locale"]
@@ -28,7 +28,7 @@ application: sheetrunner_local_dev {
     navigation: yes
     new_window: yes
     new_window_external_urls: []
-    core_api_methods: ["all_folders", "all_dashboards", "create_dashboard", "create_sql_query","run_sql_query"]
+    core_api_methods: ["all_folders", "all_dashboards", "create_dashboard", "create_sql_query","run_sql_query",  "all_connections", "connection"]
     external_api_urls: ["https://lambda_uri"]
     scoped_user_attributes: ["user_value"]
     global_user_attributes: ["locale"]
